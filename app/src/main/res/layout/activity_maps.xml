@@ -18,7 +18,6 @@
         android:layout_height="wrap_content"
         android:background="#66cccccc"
         android:padding="3dp"
-        android:text="Output"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        />
 
 </RelativeLayout>

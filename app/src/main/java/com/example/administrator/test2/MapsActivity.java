@@ -84,7 +84,7 @@ public class MapsActivity extends Activity {
                     whereAmI();
                     setUpMap();
                 }else{
-                    txtOutput.setText("請開啟定位！");
+                    txtOutput.setText("Please turn on Wi-fi or GPS!");
                 }
             }
         }
@@ -101,17 +101,17 @@ public class MapsActivity extends Activity {
         criteria.setCostAllowed(true);
         criteria.setPowerRequirement(Criteria.POWER_LOW);
         //
-        provider = locationMgr.getBestProvider(criteria, true);
+        //provider = locationMgr.getBestProvider(criteria, true);
 
-        if (provider != null) {
-            return true;
-        }
+        /*if (provider != null) {
+                    return true;
+                }*/
 
         //2.選擇使用GPS提供器
-        /*if (locationMgr.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
-            provider = LocationManager.GPS_PROVIDER;
-            return true;
-        }*/
+        if (locationMgr.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
+                    provider = LocationManager.GPS_PROVIDER;
+                    return true;
+        }
 
         //3.選擇使用網路提供器
         // if (locationMgr.isProviderEnabled(LocationManager.NETWORK_PROVIDER)) {
@@ -136,8 +136,8 @@ public class MapsActivity extends Activity {
         locationMgr.addGpsStatusListener(gpsListener);
 
         //Location Listener
-        int minTime = 5000;//ms
-        int minDist = 5;//meter
+        int minTime = 3000; // freaquency : 5 sec
+        int minDist = 3; // sense range : 5 m
         locationMgr.requestLocationUpdates(provider, minTime, minDist, (android.location.LocationListener) locationListener);
         location = locationMgr.getLastKnownLocation(provider);
         try {
@@ -223,7 +223,7 @@ public class MapsActivity extends Activity {
 
         MarkerOptions markerOpt = new MarkerOptions();
         markerOpt.position(new LatLng(lat, lng));
-        markerOpt.title("我在這裡");
+        markerOpt.title("I'm here!!");
         markerMe = mMap.addMarker(markerOpt);
 
         Toast.makeText(this, "lat:" + lat + ",lng:" + lng, Toast.LENGTH_SHORT).show();
@@ -251,16 +251,16 @@ public class MapsActivity extends Activity {
                     "\nProvider: " + provider +
                     "\nAddress: " + addr;
 
-            //"我"
+            // show the infoemation
             showMarkerMe(lat, lng);
-            //cameraFocusOnMe(lat, lng);
+            cameraFocusOnMe(lat, lng);
             //trackToMe(lat, lng);
 
         }else{
             where = "No location found.";
         }
 
-        //顯示資訊
+        // put the information on textview
         txtOutput.setText(where);
     }
 
@@ -269,15 +269,22 @@ public class MapsActivity extends Activity {
         return format.format(timeInMilliseconds);
     }
 
+    private void cameraFocusOnMe(double lat, double lng){
+        CameraPosition camPosition = new CameraPosition.Builder()
+                .target(new LatLng(lat, lng))
+                .zoom(16)
+                .build();
+
+        mMap.animateCamera(CameraUpdateFactory.newCameraPosition(camPosition));
+    }
+
     private String getAddress(double lat, double lng) throws IOException {
         String returnAddress = "";
         try{
             Geocoder gc = new Geocoder(this, Locale.TRADITIONAL_CHINESE);
             List<Address> lstAddress = gc.getFromLocation(lat, lng, 1);
             returnAddress=lstAddress.get(0).getAddressLine(0);
-        } catch(Exception e) {
-
-        }
+        } catch(Exception e) {}
 
         return returnAddress;
     }
@@ -292,7 +299,7 @@ public class MapsActivity extends Activity {
                                              }
                                          return false;*/
 
-                    if(mLocation != null) {
+                    if (mLocation != null) {
                         try {
                             //whereAmI();
                             updateWithNewLocation(mLocation);
@@ -303,12 +310,12 @@ public class MapsActivity extends Activity {
                     }
                     return false;
                 }
-     };
-
+            };
 
     private void setUpMap() {
         mMap.setMyLocationEnabled(true);
         mMap.setOnMyLocationButtonClickListener(mOnMyLocationButtonClickListener);
+        mMap.getUiSettings().setRotateGesturesEnabled(false); // rotate geasture off
     }
 
 }
