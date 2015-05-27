@@ -2,165 +2,165 @@
 <items version="2" >
 
     <item
-        jar="D:\WorkPlace\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
-        <dex dex="D:\WorkPlace\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-5ebcabade32f124f8537990ad1df3901dae7d848.jar" />
-    </item>
-    <item
-        jar="D:\WorkPlace\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
-        <dex dex="D:\WorkPlace\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-1ec52c1e6f14d1e915f125ad9339483aa2b1dc99.jar" />
-    </item>
-    <item
-        jar="D:\WorkPlace\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
-        <dex dex="D:\WorkPlace\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-0216802d9c115efc671665eefb26e393824ce9a5.jar" />
-    </item>
-    <item
-        jar="D:\WorkPlace\GoogleMap\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.0\classes.jar"
+        jar="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.1.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="983e2f375504bc04def18e709c35192afe92e65f">
-        <dex dex="D:\WorkPlace\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-60ce54bca70f9aa1e69d441cd8d8870cf6b3f865.jar" />
+        <dex dex="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-d973079da286d2e52572555a48bdb0e404d30d65.jar" />
     </item>
     <item
-        jar="D:\WorkPlace\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
-        <dex dex="D:\WorkPlace\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-779f41cf6c955eb0c0f7e9395f24f0f2d4f59a14.jar" />
-    </item>
-    <item
-        jar="D:\WorkPlace\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
-        <dex dex="D:\WorkPlace\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-72a0c4ca345625825f935971877749f40a657b04.jar" />
-    </item>
-    <item
-        jar="D:\WorkPlace\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
-        <dex dex="D:\WorkPlace\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-8be5b42989dc300527e70a2bcd381fd5ab320433.jar" />
-    </item>
-    <item
-        jar="D:\WorkPlace\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
-        <dex dex="D:\WorkPlace\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-426635dd53deec5ab942e9b4551b7ec531194c30.jar" />
-    </item>
-    <item
-        jar="D:\WorkPlace\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
-        <dex dex="D:\WorkPlace\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-94bfb1f4ae30813262603ca4325d40b6823849a6.jar" />
-    </item>
-    <item
-        jar="D:\WorkPlace\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
-        <dex dex="D:\WorkPlace\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-ab1dbb6e2274a69332aa94bfacee933af16bb734.jar" />
-    </item>
-    <item
-        jar="D:\WorkPlace\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
-        <dex dex="D:\WorkPlace\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-0dfca44d8c383b746fb35b7bb0ab2a688a6f7fdb.jar" />
-    </item>
-    <item
-        jar="D:\WorkPlace\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
-        <dex dex="D:\WorkPlace\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-fe287839e8bc0e35d045eccb8c250319fec771f6.jar" />
-    </item>
-    <item
-        jar="D:\WorkPlace\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
-        <dex dex="D:\WorkPlace\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-ac56e89ea31efede8caa8736a01ea5928e784e36.jar" />
-    </item>
-    <item
-        jar="D:\WorkPlace\GoogleMap\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.0\libs\internal_impl-22.1.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="025cb89f2896c63200ff4c2e6c467a95691d880a">
-        <dex dex="D:\WorkPlace\GoogleMap\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.0-de5f6772a6d7d288cd606586c45e8c9f3d156861.jar" />
-    </item>
-    <item
-        jar="D:\WorkPlace\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
-        <dex dex="D:\WorkPlace\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-4bf1282bfe8f2b125d7d30526380f4bf10c3ca95.jar" />
-    </item>
-    <item
-        jar="D:\WorkPlace\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
-        <dex dex="D:\WorkPlace\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-b985af6b806bc4c175348b6019936ed83cc16bf5.jar" />
-    </item>
-    <item
-        jar="D:\WorkPlace\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\classes.jar"
+        jar="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="055783146ba9654a725442563be78cad303aad1f">
-        <dex dex="D:\WorkPlace\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-4aab7b286baff7c113069b6e9da9ef41da063c19.jar" />
+        <dex dex="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-34dbb6ab2b3699ce51a8787bd2212c0e260c0f79.jar" />
     </item>
     <item
-        jar="D:\WorkPlace\GoogleMap\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.0\classes.jar"
+        jar="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="eeebabdfd8203f6ab639ccea4ffa1f20e1adee3a">
-        <dex dex="D:\WorkPlace\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-663e8b9891a2883b1bfa0045f56388b59862d7e0.jar" />
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-1c35260ec8f833134c4488c257bbefe7fb5805cd.jar" />
     </item>
     <item
-        jar="D:\WorkPlace\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\classes.jar"
+        jar="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
-        <dex dex="D:\WorkPlace\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-418a81f89204cb6e872282774000f6e5eaa71bb9.jar" />
+        <dex dex="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-1d6317eee5d6a0871e05f7d9eaeb72f85f342d07.jar" />
     </item>
     <item
-        jar="D:\WorkPlace\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\classes.jar"
+        jar="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-1ad47c8cc5d1810204f29f540c19a5667f4d7863.jar" />
+    </item>
+    <item
+        jar="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-5704d27a0edcedf498d38e140e38c7845b2c2f06.jar" />
+    </item>
+    <item
+        jar="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-d25ead4dd923118f92fa58ea38e5092efae783ed.jar" />
+    </item>
+    <item
+        jar="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-3b6179fbd44febc096e0206bf07499b05abe6f54.jar" />
+    </item>
+    <item
+        jar="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-44325edc96ff412fd91b104280b6662ce5554a72.jar" />
+    </item>
+    <item
+        jar="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-57f2173cfba054ca3c232e829da599956c88f35f.jar" />
+    </item>
+    <item
+        jar="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-888c3eb9a1ab051100721fcc823de6b661c904e4.jar" />
+    </item>
+    <item
+        jar="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-fcc2982063efe254bc17ebec2c1cdc46167ec8aa.jar" />
+    </item>
+    <item
+        jar="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
-        <dex dex="D:\WorkPlace\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-4d7fc8098d1df1c4c35648d84f750273af0cd40d.jar" />
+        <dex dex="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-7fe10ea771b8470f33842f91697102207aac8631.jar" />
+    </item>
+    <item
+        jar="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-218bebb791f2c00305124d20a7b696509d4643e0.jar" />
+    </item>
+    <item
+        jar="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.0\libs\internal_impl-22.1.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="025cb89f2896c63200ff4c2e6c467a95691d880a">
+        <dex dex="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\pre-dexed\debug\internal_impl-22.1.0-6e625f39ebd5558c601842d81a3b2fb79d1cbc52.jar" />
+    </item>
+    <item
+        jar="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-dc8e49f95afb1c8cd9b270f0c828fb023ee0d29d.jar" />
+    </item>
+    <item
+        jar="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-12fe9c61a3d2a63568f9dfd7ab2c6610c76a03f7.jar" />
     </item>
     <item
         jar="D:\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.0\support-annotations-22.1.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="281bc6c58ecb3644c23fbc5ee0452019f67b4d5d">
-        <dex dex="D:\WorkPlace\GoogleMap\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.0-9a5254af08f7714e3b2fe641c95993df6324a365.jar" />
+        <dex dex="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\pre-dexed\debug\support-annotations-22.1.0-9a5254af08f7714e3b2fe641c95993df6324a365.jar" />
     </item>
     <item
-        jar="D:\WorkPlace\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\classes.jar"
+        jar="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
-        <dex dex="D:\WorkPlace\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-4fff587a5c274b10d55e0968eeba0fe4e64e4af8.jar" />
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-e3e43bf536a90d255c5b2befc8f5d96d435fa13c.jar" />
     </item>
     <item
-        jar="D:\WorkPlace\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\classes.jar"
+        jar="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.1.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="eeebabdfd8203f6ab639ccea4ffa1f20e1adee3a">
+        <dex dex="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-a7fb21e0efa5a5bd0be36c33713254536264475a.jar" />
+    </item>
+    <item
+        jar="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
-        <dex dex="D:\WorkPlace\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-204921762b5c12a7991e3fc161b709ada5f70e9e.jar" />
+        <dex dex="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-3c01acf3efae69e8986cb481b1e22fa99a87bd96.jar" />
+    </item>
+    <item
+        jar="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-29e0275c35b4349367aaa7b7f0dcc720a2424561.jar" />
+    </item>
+    <item
+        jar="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="D:\Android_Studio_Project\GoogleMap\app\build\intermediates\pre-dexed\debug\classes-5f867b3b6b77f7c77f7a1a4b8a21acae350b2a85.jar" />
     </item>
 
 </items>

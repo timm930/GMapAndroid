@@ -94,12 +94,12 @@ public class MapsActivity extends Activity {
         locationMgr = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
         //1.選擇最佳提供器
-        Criteria criteria = new Criteria();
-        criteria.setAccuracy(Criteria.ACCURACY_FINE);
-        criteria.setAltitudeRequired(false);
-        criteria.setBearingRequired(false);
-        criteria.setCostAllowed(true);
-        criteria.setPowerRequirement(Criteria.POWER_LOW);
+        //Criteria criteria = new Criteria();
+        //criteria.setAccuracy(Criteria.ACCURACY_FINE);
+        //criteria.setAltitudeRequired(false);
+        //criteria.setBearingRequired(false);
+        //criteria.setCostAllowed(true);
+        //criteria.setPowerRequirement(Criteria.POWER_LOW);
         //
         //provider = locationMgr.getBestProvider(criteria, true);
 
@@ -136,7 +136,7 @@ public class MapsActivity extends Activity {
         locationMgr.addGpsStatusListener(gpsListener);
 
         //Location Listener
-        int minTime = 3000; // freaquency : 5 sec
+        int minTime = 3000; // freaquency : 3000 ms
         int minDist = 3; // sense range : 5 m
         locationMgr.requestLocationUpdates(provider, minTime, minDist, (android.location.LocationListener) locationListener);
         location = locationMgr.getLastKnownLocation(provider);
@@ -244,10 +244,10 @@ public class MapsActivity extends Activity {
 
             String addr = getAddress(lat, lng);
 
-            where = "經度: " + lng +
-                    "\n緯度: " + lat +
-                    "\n速度: " + speed +
-                    "\n時間: " + timeString +
+            where = "Longtitude: " + lng +
+                    "\nLatitude: " + lat +
+                    //"\n速度: " + speed +
+                    //"\n時間: " + timeString +
                     "\nProvider: " + provider +
                     "\nAddress: " + addr;
 
